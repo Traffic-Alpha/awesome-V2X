@@ -8,6 +8,7 @@ A curated list of Vehicle to X (V2X) resources (continually updated)
   - [Table of Contents](#table-of-contents)
   - [Paper](#paper)
     - [2021](#2021)
+    - [2023](#2023)
   - [License](#license)
 
 
@@ -31,6 +32,14 @@ format:
   - Planning, Decision-making, Autonomous intersection management, Connected autonomous vehicles
   - Chinese Journal of Mechanical Engineering
   - [Paper Reading](./Paper/2021/Li_2021_Planning_and_Decision_making.md)
+
+
+### 2023
+
+- [GPT-Driver: Learning to Drive with GPT](https://arxiv.org/abs/2310.01415)
+  - Jiageng Mao, Yuxi Qian, Hang Zhao, Yue Wang
+  - Planning, Decision-making, Autonomous intersection management, Connected autonomous vehicles
+  - [Paper Reading](./Paper/2023/Mao_2023_GPT-Driver.md)
 
 ## License
 
