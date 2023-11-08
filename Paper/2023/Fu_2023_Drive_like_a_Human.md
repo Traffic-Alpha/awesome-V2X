@@ -16,6 +16,9 @@
 
 ## Introduction
 
+- 传统方法存在的问题
+- 本文提出的方法
+- 如果改成做 TSC，此时的创新点是什么
 Some scenarios, which are easy for human drivers to handle, are long-tail corner cases for many existing autonomous driving (AD) systems.
 
 <div align=center>
