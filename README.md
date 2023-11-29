@@ -1,6 +1,6 @@
 # Awesome V2X
 
-A curated list of Vehicle to X (V2X) resources (continually updated)
+A curated list of Vehicle to X (V2X) resources (continually updated). You can reference [Journal Information](./Paper/Journal_Information/) for more information.
 
 ## Table of Contents
 
