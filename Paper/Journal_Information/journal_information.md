@@ -16,11 +16,13 @@
 | [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) | 计算机科学 2区 | 机器人学 | Q2 | 5.9 |  |
 | [Physica A: Statistical Mechanics and its Applications](https://www.sciencedirect.com/journal/physica-a-statistical-mechanics-and-its-applications) | 物理和天体物理 2区 | 综合 | Q2 | 3.3 |  |
 | [IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297) | 计算机科学 2区 | 人工智能 | Q2 | 5.3 |  |
+| [Transportmetrica A-Transport Science](https://www.tandfonline.com/journals/ttra21) | 工程技术 2区 | 交通运输/运输科技 | Q2 | 3.5 |  |
 | [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) | 计算机科学 2区 | 信息系统/理论方法 |  |  |  |
 | [IEEE Intelligent System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9670) | 计算机科学 3 区 | 人工智能/电子与电气 | Q1 | 6.4 |  |
 | [ACM Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd) | 计算机科学 3区 | 信息系统/软件工程 | Q1 | 4 |  |
 | [Machine Learning](https://link.springer.com/journal/10994) | 计算机科学 3区 | 人工智能 | Q1 | 7.5 |  |
 | [Frontiers of Information Technology & Electronic Engineering](https://link.springer.com/journal/11714) | 工程技术 3区 | 信息系统/软件工程/电子与电气 | Q2 | 2.9 |  |
+| [International Journal of Sustainable Transportation](https://www.tandfonline.com/journals/ujst20) | 工程技术 3区 | 环境研究/绿色可持续发展技术/交通运输 | Q2 | 4.4 |  |
 | [Journal of Computer Science and Technology](https://link.springer.com/journal/11390) | 计算机科学 3区 | 硬件/软件工程 | Q3 | 1.9 |  |
 | [Journal of Advanced Transportation](https://www.hindawi.com/journals/jat/) | 工程技术 4区 | 土木/运输科技 | Q2 | 2.3 |  |
 | [Transportation Research Record](https://journals.sagepub.com/home/TRR) | 工程技术 4区 | 土木/运输科技 | Q2 | 1.9 |  |
@@ -35,3 +37,4 @@
 | [IEEE Transactions on Machine Learning in Communications and Networking](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9882533) |  |  |  |  | 2023 年新期刊 |
 | [IEEE Open Access Journal of Power and Energy](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8784343) |  |  |  |  |  |
 | [IEEE Journal of Selected Areas in Sensors](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10057477) |  |  |  |  | 2024 年才可以投稿 |
+| [Communications in Transportation Research](https://www.sciencedirect.com/journal/communications-in-transportation-research/issues) |  | 交通运输 |  |  | 2021年建刊 |
