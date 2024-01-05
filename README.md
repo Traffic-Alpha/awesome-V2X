@@ -57,7 +57,7 @@ format:
   - 2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)
   - [Paper Reading](./Paper/2023/Tao_2023_Network_Clustering_TSC.md), (信号灯控制, 路口相似度聚类)
 
-- [GPT-Driver: Learning to Drive with GPT](https://arxiv.org/abs/2401.00211)
+- [Open-TI: Open Traffic Intelligence with Augmented Language Model](https://arxiv.org/abs/2401.00211)
   - Longchao Da, Kuanru Liou, Tiejin Chen, Xuesong Zhou, Xiangyong Luo, Yezhou Yang, Hua Wei
   - [Paper Reading](./Paper/2023/Da_2023_Open-TI.md), (智慧交通系统, 人机交互, 大语言模型)
 
