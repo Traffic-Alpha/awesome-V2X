@@ -61,6 +61,16 @@ format:
   - Longchao Da, Kuanru Liou, Tiejin Chen, Xuesong Zhou, Xiangyong Luo, Yezhou Yang, Hua Wei
   - [Paper Reading](./Paper/2023/Da_2023_Open-TI.md), (智慧交通系统, 人机交互, 大语言模型)
 
+- [LLM-ASSIST: Enhancing Closed-Loop Planning with Language-Based Reasoning](https://arxiv.org/abs/2401.00125)
+  - S P Sharan, Francesco Pittaluga, Vijay Kumar B G, Manmohan Chandraker
+  - [Paper Reading](./Paper/2023/Sharan_2023_LLM-Assist.md), (轨迹生成, 自动驾驶, 大语言模型)
+  - 利用 rule-based planner + LLM，如果 rule-based planner 产生的轨迹得分较低，则使用 LLM 去分析场景并产生新的轨迹。
+
+- [Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving](https://arxiv.org/abs/2311.17918)
+  - Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, Zhaoxiang Zhang
+  - [Paper Reading](./Paper/2023/Wang_2023_Driving_into_the_Future.md), (场景预测, 自动驾驶, 大语言模型)
+  - 对多视角的视频进行预测（结合当前 state 和 action，对场景预测），对不同动作的未来场景进行打分，最后选择分数高的场景对应的动作进行执行。
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.
