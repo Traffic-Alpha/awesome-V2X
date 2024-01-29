@@ -27,6 +27,7 @@
 | [Journal of Advanced Transportation](https://www.hindawi.com/journals/jat/) | 工程技术 4区 | 土木/运输科技 | Q2 | 2.3 |  |
 | [Transportation Research Record](https://journals.sagepub.com/home/TRR) | 工程技术 4区 | 土木/运输科技 | Q2 | 1.9 |  |
 | [IET Intelligent Transport Systems](https://ietresearch.onlinelibrary.wiley.com/journal/17519578) | 工程技术 4区 | 电子与电气/运输科技 | Q3 | 2.7 |  |
+| [Engineering Science and Technology-An International Journal](https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal) |  |  | Q1 | 5.7 |  |
 | [IEEE Open Journal of Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8784355) |  |  |  | 2.6 | 新期刊 |
 | [IEEE Open Journal of Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782711) |  |  |  | 6.4 | 新期刊 |
 | [IEEE Transactions on Artificial Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688) |  |  |  | 4.9 |  |
