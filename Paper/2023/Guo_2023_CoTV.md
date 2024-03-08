@@ -6,6 +6,29 @@
 -->
 # CoTV: Cooperative Control for Traffic Light Signals and Connected Autonomous Vehicles Using Deep Reinforcement Learning
 
+- [CoTV: Cooperative Control for Traffic Light Signals and Connected Autonomous Vehicles Using Deep Reinforcement Learning](#cotv-cooperative-control-for-traffic-light-signals-and-connected-autonomous-vehicles-using-deep-reinforcement-learning)
+  - [Introduction](#introduction)
+    - [研究背景](#研究背景)
+    - [传统方法存在的问题](#传统方法存在的问题)
+    - [本文的方法](#本文的方法)
+  - [Method](#method)
+    - [System Design Goal](#system-design-goal)
+    - [System Components](#system-components)
+      - [Traffic Light Controller Agents](#traffic-light-controller-agents)
+      - [CAV Agents](#cav-agents)
+    - [DRL Training Process](#drl-training-process)
+    - [Considerations for Easy-to-Deploy](#considerations-for-easy-to-deploy)
+  - [Evaluation Method](#evaluation-method)
+    - [模拟场景](#模拟场景)
+    - [评估指标](#评估指标)
+  - [比较方法](#比较方法)
+  - [Experiment](#experiment)
+    - [Traffic Efficiency \& Safety](#traffic-efficiency--safety)
+    - [Improved Scalability by Reducing the CAVs Agents](#improved-scalability-by-reducing-the-cavs-agents)
+    - [When CoTV Meets More Complicated Urban Scenarios](#when-cotv-meets-more-complicated-urban-scenarios)
+  - [Conclusion](#conclusion)
+
+
 ## Introduction
 
 ### 研究背景
@@ -84,7 +107,7 @@ CoTV 的系统组件包括交通信号灯控制器（Traffic Light Controller Ag
 - **Reward**：车辆的奖励分为两个部分，分别是：
   - 希望车辆的速度尽可能的接近最大速度，从而提高效率；
   - 希望车辆的加速度接近 0，减少油耗，和增加安全系数；
-  - 下面是奖励详细的计算公式，其中 $v^{*}$ 是最大速度，$a^{*}$ 是最大加速度，$K$ 是这条路上的车辆数。
+  - 下面是奖励详细的计算公式，其中 v* 是最大速度，a* 是最大加速度，$K$ 是这条路上的车辆。
 
 <div align=center>
     <img width="50%" src="./figures/Guo_2023_CoTV/reward_function.jpg">

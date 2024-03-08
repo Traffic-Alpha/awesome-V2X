@@ -71,6 +71,11 @@ format:
   - [Paper Reading](./Paper/2023/Wang_2023_Driving_into_the_Future.md), (场景预测, 自动驾驶, 大语言模型)
   - 对多视角的视频进行预测（结合当前 state 和 action，对场景预测），对不同动作的未来场景进行打分，最后选择分数高的场景对应的动作进行执行。
 
+- [CoTV: Cooperative Control for Traffic Light Signals and Connected Autonomous Vehicles Using Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10144471)
+  - Jiaying Guo, Long Cheng, Shen Wang
+  - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
+  - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.
