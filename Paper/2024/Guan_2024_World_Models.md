@@ -139,9 +139,9 @@ $$
 #### JEPA
 
 下图展示了三种结构，分别是 JEA，GA 和 JEPA，他们分别是：
-- JEA：$x$ 和 $y$ 同时经过 Encoder，我们对 $x$ 和 $y$ 得到的 embedding 进行比较。如果 $x$ 和 $y$ 接近的，我们希望他们的 embedding 也是接近的。通常我们可以对 $x$ 进行裁剪或是旋转等操作得到 $y$，确保他们是相似的；
-- GA：对 $x$ 进行编码并结合附加变量 $z$ 来生成 $\hat{y}=Dec(Enc(x),z)$。最后比较希望 $y$ 和 $\hat{y}$ 是接近的。这里是像素层面的比较，通常 $y$ 是原始图片，$x$ 是对 $y$ 进行 mask，$z$ 中包含 mask 的位置信息；
-- JEPA：这个方法与 GA 类似，但是不是直接比较最后生成的像素，而是在 laten space 进行比较。这里会首先对 $x$ 和 $y$ 都经过 encoder，分别得到 $s_x$ 和 $s_y$。接着我们利用 $s_x$ 和附加变量 $z$ 来预测 $\bar{s}_y = pred(s_x, z)$。我们希望在 laten space 上， $\bar{s}_y$ 和 $s_y$ 是接近的。这里我们不是在像素层面进行比较，而是在 laten space，我们希望在这里可以有更多的语义信息。
+- JEA：这里 $x$ 和 $y$ 同时经过 Encoder，我们对 $x$ 和 $y$ 得到的 embedding 进行比较。如果 $x$ 和 $y$ 接近的，我们希望他们的 embedding 也是接近的。通常我们可以对 $x$ 进行裁剪或是旋转等操作得到 $y$，确保他们是相似的；
+- GA：对 $x$ 进行编码并结合附加变量 $z$ 来生成 $\hat{y}=Dec(Enc(x),z)$。最后比较希望 $y$ 和 $\hat{y}$ 是接近的。这里是像素层面的比较，通常 $y$ 是原始图片， $x$ 是对 $y$ 进行 mask，$z$ 中包含 mask 的位置信息；
+- JEPA：这个方法与 GA 类似，但是不是直接比较最后生成的像素，而是在 laten space 进行比较。这里会首先对 $x$ 和 $y$ 都经过 encoder，分别得到 $s_x$ 和 $s_y$。接着我们利用 $s_x$ 和附加变量 $z$ 来预测 $\bar{s}_y = pred(s_x, z)$。我们希望在 laten space 上，也就是 $\bar{s}_y$ 和 $s_y$ 是接近的。这里我们不是在像素层面进行比较，而是在 laten space，我们希望在这里可以有更多的语义信息。
 
 <div align=center>
     <img width="99%" src="./figures/Guan_2024_World_Models/compare_JEPA.jpg">

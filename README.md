@@ -83,7 +83,7 @@ format:
 - [World Models for Autonomous Driving: An Initial Survey](https://arxiv.org/abs/2403.02622)
   - Yanchen Guan, Haicheng Liao, Zhenning Li, Guohui Zhang, Chengzhong Xu
   - [Paper Reading](./Paper/2024/Guan_2024_World_Models.md), (World Model, RSSM, PETA, AV)
-  - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 PETA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
+  - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 JEPA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
 
 ## License
 
