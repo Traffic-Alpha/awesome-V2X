@@ -1,3 +1,11 @@
+<!--
+ * @Author: pangay 1623253042@qq.com
+ * @Date: 2024-04-16 22:31:29
+ * @LastEditors: pangay 1623253042@qq.com
+ * @LastEditTime: 2024-04-16 22:44:20
+ * @FilePath: /awesome-V2X/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # Awesome V2X
 
 A curated list of Vehicle to X (V2X) resources (continually updated). You can reference [Journal Information](./Paper/Journal_Information/) for more information.
@@ -77,7 +85,10 @@ format:
   - IEEE Transactions on Intelligent Transportation Systems ( Volume: 24, Issue: 10, October 2023)
   - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
   - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV
-
+- [Joint Velocity and Spectrum Optimization in Urban Air Transportation System via Multi-Agent Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10068291)
+  - Ruixuan Han, Hongxiang Li, Eric J. Knoblock, Michael R. Gasper, and Rafael D. Apaza
+  - IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY ( Volume: 72, Issue: 8, AUGUST 2023)
+  - [Paper Reading](./Paper/2023/Han_2023_velocity_and_spectrum_optimization.md)
 ### 2024
 
 - [World Models for Autonomous Driving: An Initial Survey](https://arxiv.org/abs/2403.02622)
