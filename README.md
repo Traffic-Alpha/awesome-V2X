@@ -85,6 +85,11 @@ format:
   - [Paper Reading](./Paper/2024/Guan_2024_World_Models.md), (World Model, RSSM, PETA, AV)
   - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 JEPA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
 
+- [UniTSA: A Universal Reinforcement Learning Framework for V2X Traffic Signal Control](https://ieeexplore.ieee.org/abstract/document/10535743)
+  - Maonan Wang, Xi Xiong, Yuheng Kan, Chengcheng Xu, Man-On Pun
+  - [Paper Reading](./Paper/2024/Wang_2024_UniTSA.md)（[相关代码，Github-UniTSA](https://github.com/wmn7/Universal-Light)）
+  - 利用数据增强的方式，使得 agent 可以见到训练集中不包含的路口情况，使得 agent 可以在没有见过的路口上获得更好的结果。
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.
