@@ -5,11 +5,13 @@
 | [IEEE Transactions on Transportation Electrification](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316) | 工程技术 1区Top | 电子与电气/运输科技 | Q1 | 7 |  |
 | [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications) | 计算机科学 1区Top | 人工智能/电子与电气/运筹与管理 | Q1 | 8.5 |  |
 | [Advanced Engineering Informatics](https://www.sciencedirect.com/journal/advanced-engineering-informatics) | 工程技术 1区Top | 综合/人工智能 | Q1 | 8.8 |  |
+| [IEEE Transactions on Neural Networks and Learning Systems]( https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | 计算机科学 1区Top |  人工智能/电子与电子 |  Q1 |  10.4 |  双盲审 |
 | [IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857) | 工程技术 2区 | 人工智能/电子与电气/运输科技 | Q1 | 8.2 |  |
 | [IEEE Transactions on Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25) | 计算机科学 2区Top | 电子与电气/电信/运输技术 | Q1 | 6.5 |  |
 | [Transportation Research Part D: Transport and Environment](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment) | 工程技术 2区 | 环境研究/交通运输/运输科技 | Q1 | 7.6 |  |
 | [Computers & Industrial Engineering](https://www.sciencedirect.com/journal/computers-and-industrial-engineering) | 工程技术 2区 | 跨学科应用/工业 | Q1 | 7.9 |  |
 | [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence) | 计算机科学 2区Top | 综合/自动化与控制系统 | Q1 | 8 | 评价还可以 |
+| [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) | 计算机科学 2区 | 信息系统/理论方法 | Q1 | 7.2 | 这个期刊最近比较难中 |
 | [IEEE Intelligent Transportation Systems Magazine](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=5117645) | 工程技术 2区 | 电子与电气/运输科技 | Q2 | 3.6 |  |
 | [Computers & Operations Research](https://www.sciencedirect.com/journal/computers-and-operations-research) | 工程技术 2区 | 跨学科应用/工业/运筹 | Q2 | 4.6 |  |
 | [Journal of Intelligent Transportation Systems](https://www.tandfonline.com/journals/gits20) | 工程技术 2区 | 交通运输/运输科技 | Q2 | 3.6 | 比较慢 |
@@ -17,7 +19,6 @@
 | [Physica A: Statistical Mechanics and its Applications](https://www.sciencedirect.com/journal/physica-a-statistical-mechanics-and-its-applications) | 物理和天体物理 2区 | 综合 | Q2 | 3.3 |  |
 | [IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297) | 计算机科学 2区 | 人工智能 | Q2 | 5.3 |  |
 | [Transportmetrica A-Transport Science](https://www.tandfonline.com/journals/ttra21) | 工程技术 2区 | 交通运输/运输科技 | Q2 | 3.5 |  |
-| [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) | 计算机科学 2区 | 信息系统/理论方法 |  |  |  |
 | [IEEE Intelligent System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9670) | 计算机科学 3 区 | 人工智能/电子与电气 | Q1 | 6.4 |  |
 | [ACM Transactions on Knowledge Discovery from Data](https://dl.acm.org/journal/tkdd) | 计算机科学 3区 | 信息系统/软件工程 | Q1 | 4 |  |
 | [Machine Learning](https://link.springer.com/journal/10994) | 计算机科学 3区 | 人工智能 | Q1 | 7.5 |  |
