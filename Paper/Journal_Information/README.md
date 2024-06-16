@@ -69,3 +69,8 @@ Data sorted successfully.
 Markdown table created successfully.
 Markdown file 'journal_information.md' saved successfully.
 ```
+
+## 参考链接
+
+- [SCI 录用圈](https://space.bilibili.com/3546374431836419), B 站视频推荐期刊.
+- [SCI 发表家](https://space.bilibili.com/3546386947639359), B 站视频推荐期刊.
