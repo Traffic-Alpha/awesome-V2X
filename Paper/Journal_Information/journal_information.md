@@ -1,5 +1,6 @@
 | Journal Name with Link | 中科院分区 | 小类 | JCR | Impact Factor | 其他 |
 | --- | --- | --- | --- | --- | --- |
+| [Big Data Mining and Analytics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8254253) | 计算机科学 1区 | 人工智能/信息系统 | Q1 | 13.6 | 新期刊, 但是影响因子很高 |
 | [IEEE Transactions on Neural Networks and Learning Systems]( https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | 计算机科学 1区Top |  人工智能/电子与电子 |  Q1 |  10.4 |  双盲审 |
 | [Science of The Total Environment]( https://www.sciencedirect.com/journal/science-of-the-total-environment) |  环境科学与生态学 1区Top |  环境科学 |  Q1 |  9.6 |  影响因子高 |
 | [Advanced Engineering Informatics](https://www.sciencedirect.com/journal/advanced-engineering-informatics) | 工程技术 1区Top | 综合/人工智能 | Q1 | 8.8 |  |
@@ -16,6 +17,7 @@
 | [Transportation Research Part D: Transport and Environment](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment) | 工程技术 2区 | 环境研究/交通运输/运输科技 | Q1 | 7.6 |  |
 | [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) | 计算机科学 2区 | 信息系统/理论方法 | Q1 | 7.2 | 这个期刊最近比较难中 |
 | [IEEE Transactions on Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25) | 计算机科学 2区Top | 电子与电气/电信/运输技术 | Q1 | 6.5 |  |
+| [Engineering Science and Technology-An International Journal](https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal) | 工程技术 2区 | 工程综合 | Q1 | 5.7 | 新期刊可以关注 |
 | [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) | 计算机科学 2区 | 机器人学 | Q2 | 5.9 |  |
 | [IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297) | 计算机科学 2区 | 人工智能 | Q2 | 5.3 |  |
 | [Applied Intelligent]( https://link.springer.com/journal/10489) |  计算机学科 2区 |  人工智能 |  Q2 |  5.2 |  年发文 1400+ (上涨较快) |
@@ -33,14 +35,12 @@
 | [Journal of Advanced Transportation](https://www.hindawi.com/journals/jat/) | 工程技术 4区 | 土木/运输科技 | Q2 | 2.3 |  |
 | [Transportation Research Record](https://journals.sagepub.com/home/TRR) | 工程技术 4区 | 土木/运输科技 | Q2 | 1.9 |  |
 | [IET Intelligent Transport Systems](https://ietresearch.onlinelibrary.wiley.com/journal/17519578) | 工程技术 4区 | 电子与电气/运输科技 | Q3 | 2.7 |  |
-| [Engineering Science and Technology-An International Journal](https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal) |  |  | Q1 | 5.7 |  |
 | [IEEE Open Journal of Control Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9552933) |  |  |  |  |  |
 | [Journal of Intelligent and Connected Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9944931) |  |  |  |  |  |
 | [IEEE Transactions on Machine Learning in Communications and Networking](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9882533) |  |  |  |  | 2023 年新期刊 |
 | [IEEE Open Access Journal of Power and Energy](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8784343) |  |  |  |  |  |
 | [IEEE Journal of Selected Areas in Sensors](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10057477) |  |  |  |  | 2024 年才可以投稿 |
 | [Communications in Transportation Research](https://www.sciencedirect.com/journal/communications-in-transportation-research/issues) |  | 交通运输 |  |  | 2021年建刊 |
-| [Big Data Mining and Analytics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8254253) |  |  |  | 13.6 | 新期刊, 但是影响因子很高 |
 | [IEEE Open Journal of the Computer Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661) |  |  |  | 7.9 |  |
 | [IEEE Open Journal of Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782711) |  |  |  | 6.4 | 新期刊 |
 | [IEEE Transactions on Artificial Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688) |  |  |  | 4.9 |  |
