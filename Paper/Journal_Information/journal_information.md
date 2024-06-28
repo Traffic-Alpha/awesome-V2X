@@ -9,7 +9,7 @@
 | [Advanced Engineering Informatics](https://www.sciencedirect.com/journal/advanced-engineering-informatics) | 工程技术 1区Top | 综合/人工智能 | Q1 | 8.8 |  |
 | [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems) | 计算机科学 1区Top | 人工智能 | Q1 | 8.6 |  |
 | [IEEE Transactions on Systems Man and Cybernetics: Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021) | 计算机科学 1区Top | 自动化与控制系统/控制论 | Q1 | 8.6 |  |
-| [IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=6979) | 工程技术 1区 | 土木/运输科技/电子电气 | Q1 | 8.5 |  |
+| [IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=6979) | 工程技术 1区 | 土木/运输科技/电子与电气 | Q1 | 8.5 |  |
 | [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications) | 计算机科学 1区Top | 人工智能/电子与电气/运筹与管理 | Q1 | 8.5 |  |
 | [IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857) | 工程技术 1区 | 人工智能/电子与电气/运输科技 | Q1 | 8.4 |  |
 | [Transportation Research Part C: Emerging Technologies](https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies) | 工程技术 1区 | 运输科技 | Q1 | 8.3 |  |
@@ -22,11 +22,12 @@
 | [Transportation Research Part D: Transport and Environment](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment) | 工程技术 2区 | 环境研究/交通运输/运输科技 | Q1 | 7.6 |  |
 | [IEEE Transactions on Big Data](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317) | 计算机科学 2区 | 信息系统/理论方法 | Q1 | 7.2 | 这个期刊最近比较难中 |
 | [IEEE Transactions on Vehicular Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25) | 计算机科学 2区Top | 电子与电气/电信/运输技术 | Q1 | 6.5 |  |
-| [IEEE Transactions on Automation Science and Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856) | 计算机科学 2区Top | 自动化与控制系统 | Q1 | 5.9 |  |
+| [IEEE Transactions on Automation Science and Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856) | 计算机科学 2区Top | 自动化与控制系统 | Q1 | 5.9 | 这个期刊可以关注一下 |
 | [ISA transactions](https://www.isa.org/standards-and-publications/isa-publications/isa-transactions) | 计算机科学 2区Top | 工程综合/自动化与控制系统 | Q1 | 5.9 | 审稿人有点多 |
 | [Engineering Science and Technology-An International Journal](https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal) | 工程技术 2区 | 工程综合 | Q1 | 5.7 | 新期刊可以关注 |
 | [IEEE Transactions on Instrumentation and Measurement](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19) | 工程技术 2区 | 电子与电气 | Q1 | 5.6 | 一年2000+ |
 | [IEEE Transactions on Aerospace and Electronic Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7) | 计算机科学 2区Top | 宇航/电子与电气 | Q1 | 5.1 |  |
+| [IEEE Transactions on Control Systems Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87) | 计算机科学 2区 |  自动化与控制系统/电子与电气 | Q1 | 4.9 |  |
 | [IEEE Sensors Journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361) | 综合性期刊 2区 | 电子与电气 | Q1 | 4.2 | 这个期刊速度还可以 |
 | [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) | 计算机科学 2区 | 机器人学 | Q2 | 5.9 |  |
 | [IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297) | 计算机科学 2区 | 人工智能 | Q2 | 5.3 |  |
