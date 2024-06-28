@@ -26,7 +26,7 @@ Physica A: Statistical Mechanics and its Applications,物理和天体物理 2区
 Journal of Computer Science and Technology,计算机科学 3区,硬件/软件工程,Q3,1.9,https://link.springer.com/journal/11390,
 IEEE Transactions on Artificial Intelligence,,,,4.9,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688,
 IEEE Transactions on Big Data,计算机科学 2区,信息系统/理论方法,Q1,7.2,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317,这个期刊最近比较难中,可以参考 letpub 评论
-Big Data Mining and Analytics,计算机科学 1区,人工智能/信息系统,Q1,13.6,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8254253,"新期刊, 但是影响因子很高"
+Big Data Mining and Analytics,计算机科学 1区,人工智能/信息系统,Q1,13.6,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8254253,"新期刊,但是影响因子很高"
 IEEE Open Journal of the Computer Society,,,,7.9,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661,
 IEEE Open Journal of Control Systems,,,,,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9552933,
 IEEE Transactions on Emerging Topics in Computational Intelligence,计算机科学 2区,人工智能,Q2,5.3,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297,
@@ -36,11 +36,23 @@ IEEE Open Access Journal of Power and Energy,,,,,https://ieeexplore.ieee.org/xpl
 IEEE Journal of Selected Areas in Sensors,,,,,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10057477,2024 年才可以投稿
 Transportmetrica A-Transport Science,工程技术 2区,交通运输/运输科技,Q2,3.5,https://www.tandfonline.com/journals/ttra21,
 International Journal of Sustainable Transportation,工程技术 3区,环境研究/绿色可持续发展技术/交通运输,Q2,4.4,https://www.tandfonline.com/journals/ujst20,
-Communications in Transportation Research,,交通运输,,,https://www.sciencedirect.com/journal/communications-in-transportation-research/issues,2021年建刊
+Communications in Transportation Research,,交通运输,,,https://www.sciencedirect.com/journal/communications-in-transportation-research/issues,2021年建刊(每年发文量较少)
 Engineering Science and Technology-An International Journal,工程技术 2区,工程综合,Q1,5.7,https://www.sciencedirect.com/journal/engineering-science-and-technology-an-international-journal,新期刊可以关注
-IEEE Transactions on Neural Networks and Learning Systems,计算机科学 1区Top, 人工智能/电子与电子, Q1, 10.4, https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385, 双盲审
-Applied Intelligent, 计算机学科 2区, 人工智能, Q2, 5.2, https://link.springer.com/journal/10489, 年发文 1400+ (上涨较快)
-Science of The Total Environment, 环境科学与生态学 1区Top, 环境科学, Q1, 9.6, https://www.sciencedirect.com/journal/science-of-the-total-environment, 影响因子高, 有人投过使用 RL 解决环境问题的, 审稿相对较快
-Neural Networks, 计算机学科 1区Top, 人工智能, Q1, 7.8, https://www.sciencedirect.com/journal/neural-networks, 
-Knowledge-Based Systems, 计算机学科 1区Top, 人工智能, Q1, 8.6, https://www.sciencedirect.com/journal/knowledge-based-systems,
-Automotive Innovation, 工程技术 1区, 机械/电子与电气/运输科技, Q1, 6.1, https://link.springer.com/journal/42154, 中科院分区从四区直接变成一区
+IEEE Transactions on Neural Networks and Learning Systems,计算机科学 1区Top,人工智能/电子与电气,Q1,10.4,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385,双盲审
+Applied Intelligent,计算机科学 2区,人工智能,Q2,5.2,https://link.springer.com/journal/10489,年发文 1400+ (上涨较快)
+Science of The Total Environment,环境科学与生态学 1区Top,环境科学,Q1,9.6,https://www.sciencedirect.com/journal/science-of-the-total-environment,影响因子高,有人投过使用 RL 解决环境问题的,审稿相对较快
+Neural Networks,计算机科学 1区Top,人工智能,Q1,7.8,https://www.sciencedirect.com/journal/neural-networks,
+Knowledge-Based Systems,计算机科学 1区Top,人工智能,Q1,8.6,https://www.sciencedirect.com/journal/knowledge-based-systems,
+Automotive Innovation,工程技术 1区,机械/电子与电气/运输科技,Q1,6.1,https://link.springer.com/journal/42154,中科院分区从四区直接变成一区
+IEEE Transactions on Cybernetics,计算机科学 1区Top,自动化与控制系统,Q1,9.4,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036,控制的顶刊(审稿时间较长)
+IEEE Transactions on Automation Science and Engineering,计算机科学 2区Top,自动化与控制系统,Q1,5.9,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856,
+IEEE Transactions on Industrial Electronics,工程技术 1区Top,自动化与控制系统/电子与电气/仪器仪表,Q1,7.5,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41,
+IEEE Transactions on Industrial Informatics,计算机科学 1区Top,自动化与控制系统/跨学科应用/工业,Q1,11.7,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424,
+IEEE Transactions on Systems Man and Cybernetics: Systems,计算机科学 1区Top,自动化与控制系统/控制论,Q1,8.6,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021,
+Journal of Intelligent & Robotic Systems,计算机科学 4区,人工智能/机器人学,Q1,3.1,https://link.springer.com/journal/10846,
+ISA transactions,计算机科学 2区Top,工程综合/自动化与控制系统,Q1,5.9,https://www.isa.org/standards-and-publications/isa-publications/isa-transactions,审稿人有点多
+IEEE Sensors Journal,综合性期刊 2区,电子与电气,Q1,4.2,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361,这个期刊速度还可以
+IEEE Transactions on Instrumentation and Measurement,工程技术 2区,电子与电气,Q1,5.6,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19,一年2000+
+IEEE Transactions on Robotics,计算机科学 1区Top,机器人学,Q1,9.4,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860,
+IEEE Open Journal of the Industrial Electronics Society,,,Q1,5.2,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782706,
+IEEE Transactions on Aerospace and Electronic Systems,计算机科学 2区Top,宇航/电子与电气,Q1,5.1,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7,
