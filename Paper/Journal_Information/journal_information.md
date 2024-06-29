@@ -29,6 +29,7 @@
 | [IEEE Transactions on Aerospace and Electronic Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7) | 计算机科学 2区Top | 宇航/电子与电气 | Q1 | 5.1 |  |
 | [IEEE Transactions on Control Systems Technology](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87) | 计算机科学 2区 |  自动化与控制系统/电子与电气 | Q1 | 4.9 |  |
 | [IEEE Sensors Journal](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361) | 综合性期刊 2区 | 电子与电气 | Q1 | 4.2 | 这个期刊速度还可以 |
+| [IEEE Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97) | 工程技术 2区 | 电子与电气 | Q1 | 3.2 |  |
 | [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) | 计算机科学 2区 | 机器人学 | Q2 | 5.9 |  |
 | [IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297) | 计算机科学 2区 | 人工智能 | Q2 | 5.3 |  |
 | [Applied Intelligent](https://link.springer.com/journal/10489) | 计算机科学 2区 | 人工智能 | Q2 | 5.2 | 年发文 1400+ (上涨较快) |
@@ -46,7 +47,7 @@
 | [Journal of Intelligent & Robotic Systems](https://link.springer.com/journal/10846) | 计算机科学 4区 | 人工智能/机器人学 | Q1 | 3.1 |  |
 | [Journal of Advanced Transportation](https://www.hindawi.com/journals/jat/) | 工程技术 4区 | 土木/运输科技 | Q2 | 2.3 |  |
 | [Transportation Research Record](https://journals.sagepub.com/home/TRR) | 工程技术 4区 | 土木/运输科技 | Q2 | 1.9 |  |
-| [IET Intelligent Transport Systems](https://ietresearch.onlinelibrary.wiley.com/journal/17519578) | 工程技术 4区 | 电子与电气/运输科技 | Q3 | 2.7 |  |
+| [IET Intelligent Transport Systems](https://ietresearch.onlinelibrary.wiley.com/journal/17519578) | 工程技术 4区 | 电子与电气/运输科技 | Q3 | 2.7 | 在开源期刊中审稿速度不算快 |
 | [IEEE Open Journal of the Industrial Electronics Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782706) |  |  | Q1 | 5.2 |  |
 | [IEEE Open Journal of Control Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9552933) |  |  |  |  |  |
 | [Journal of Intelligent and Connected Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9944931) |  |  |  |  |  |
