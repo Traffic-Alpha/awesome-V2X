@@ -76,7 +76,13 @@ format:
   - Jiaying Guo, Long Cheng, Shen Wang
   - IEEE Transactions on Intelligent Transportation Systems ( Volume: 24, Issue: 10, October 2023)
   - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
-  - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV
+  - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV。
+
+- [LimSim: A Long-term Interactive Multi-scenario Traffic Simulator](https://ieeexplore.ieee.org/document/10422219)
+  - Licheng Wen, Daocheng Fu, Song Mao, Pinlong Cai, Min Dou, Yikang Li, Yu Qiao
+  - 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)
+  - [Paper Reading](./Paper/2023/Wen_2023_LimSim.md), (仿真平台，交通场景介绍)
+  - 介绍了一款自动驾驶仿真器，包含多样性的场景和车辆之间的交互。**文章里面有对交通仿真器的总结，networkFiles 文件夹里面包含 SUMO 路网，从仿真器四个特色来介绍。**
 
 ### 2024
 
