@@ -7,6 +7,7 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
 - [Awesome V2X](#awesome-v2x)
   - [Table of Contents](#table-of-contents)
   - [Paper](#paper)
+    - [2018](#2018)
     - [2021](#2021)
     - [2023](#2023)
     - [2024](#2024)
@@ -25,6 +26,14 @@ format:
   - experiment environments and datasets
   - paper reading url
 ```
+
+### 2018
+
+- [Microscopic Traffic Simulation using SUMO](https://ieeexplore.ieee.org/document/8569938)
+  - Pablo Alvarez Lopez, Michael Behrisch, Laura Bieker-Walz, Jakob Erdmann, Yun-Pang Flotterod, Robert Hilbrich, Leonhard Lucken, Johannes Rummel, Peter Wagner and Evamarie Wießner
+  - 2018 21st International Conference on Intelligent Transportation Systems (ITSC)
+  - [Paper Reading](./Paper/2018/Lopez_2018_Microscopic_SUMO.md), (SUMO 仿真平台，无需多言)
+  - 把 SUMO 主要功能介绍了一遍。通过一个例子，介绍了路网生成，流量生成，仿真过程中的模型等。读一下对 SUMO 有更多的理解，有更多场景生成的方式。
 
 ### 2021
 
