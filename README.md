@@ -34,7 +34,7 @@ format:
   - Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, Vladlen Koltun
   - Proceedings of the 1st Annual Conference on Robot Learning, PMLR 78:1-16, 2017.
   - [Paper Reading](./Paper/2017/Dosovitskiy_CARLA.md), (Carla 仿真平台)
-  - 介绍了 Carla 仿真平台，从两个方面，（1）Carla 仿真部分；（2）给了一个 benchmark，测试不同决策的结果；
+  - 介绍了 Carla 仿真平台，从两个方面，（1）Carla 仿真部分；（2）自动驾驶实验，测试不同任务下，不同决策方法的结果；
 
 ### 2018
 
@@ -101,6 +101,12 @@ format:
   - 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)
   - [Paper Reading](./Paper/2023/Wen_2023_LimSim.md), (仿真平台，交通场景介绍)
   - 介绍了一款自动驾驶仿真器，包含多样性的场景和车辆之间的交互。**文章里面有对交通仿真器的总结，networkFiles 文件夹里面包含 SUMO 路网，从仿真器四个特色来介绍。**
+
+- [MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning](https://ieeexplore.ieee.org/document/9829243)
+  - Quanyi Li, Zhenghao Peng, Lan Feng, Qihang Zhang, Zhenghai Xue, Bolei Zhou
+  - IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 3, pp. 3461-3475, 1 March 2023
+  - [Paper Reading](./Paper/2023/Li_2023_MetaDrive.md), (仿真平台，自动驾驶泛化性的研究)
+  - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）
 
 ### 2024
 
