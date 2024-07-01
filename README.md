@@ -10,8 +10,9 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
     - [2021](#2021)
     - [2023](#2023)
     - [2024](#2024)
-    - [Traffic Signal Control](#traffic-signal-control)
-    - [Driver Simulator](#driver-simulator)
+    - [Traffic Signal Control (信号灯控制)](#traffic-signal-control-信号灯控制)
+    - [CAVs and TSC (自动驾驶\&信号灯控制)](#cavs-and-tsc-自动驾驶信号灯控制)
+    - [Driver Simulator (仿真框架)](#driver-simulator-仿真框架)
   - [License](#license)
 
 
@@ -69,11 +70,7 @@ format:
   - [Paper Reading](./Paper/2023/Wang_2023_Driving_into_the_Future.md), (场景预测, 自动驾驶, 大语言模型)
   - 对多视角的视频进行预测（结合当前 state 和 action，对场景预测），对不同动作的未来场景进行打分，最后选择分数高的场景对应的动作进行执行。
 
-- [CoTV: Cooperative Control for Traffic Light Signals and Connected Autonomous Vehicles Using Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10144471)
-  - Jiaying Guo, Long Cheng, Shen Wang
-  - IEEE Transactions on Intelligent Transportation Systems ( Volume: 24, Issue: 10, October 2023)
-  - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
-  - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV。
+
 
 ### 2024
 
@@ -83,8 +80,7 @@ format:
   - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 JEPA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
 
 
-
-### Traffic Signal Control
+### Traffic Signal Control (信号灯控制)
 
 - [Network Clustering-based Multi-agent Reinforcement Learning for Large-scale Traffc Signal Control](https://ieeexplore.ieee.org/abstract/document/10364020)
   - Zhicheng Tao, Chao Li, Qinmin Yang
@@ -99,7 +95,16 @@ format:
   - [Paper Reading](./Paper/2024/Wang_2024_UniTSA.md)（[相关代码，Github-UniTSA](https://github.com/wmn7/Universal-Light)）
   - 利用数据增强的方式，使得 agent 可以见到训练集中不包含的路口情况，使得 agent 可以在没有见过的路口上获得更好的结果。
 
-### Driver Simulator
+
+### CAVs and TSC (自动驾驶&信号灯控制)
+
+- [CoTV: Cooperative Control for Traffic Light Signals and Connected Autonomous Vehicles Using Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10144471)
+  - Jiaying Guo, Long Cheng, Shen Wang
+  - IEEE Transactions on Intelligent Transportation Systems ( Volume: 24, Issue: 10, October 2023)
+  - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
+  - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV。
+
+### Driver Simulator (仿真框架)
 
 - [CARLA: An Open Urban Driving Simulator](https://proceedings.mlr.press/v78/dosovitskiy17a.html)
   - Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, Vladlen Koltun
