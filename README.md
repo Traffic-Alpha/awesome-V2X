@@ -7,6 +7,7 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
 - [Awesome V2X](#awesome-v2x)
   - [Table of Contents](#table-of-contents)
   - [Paper](#paper)
+    - [2017](#2017)
     - [2018](#2018)
     - [2021](#2021)
     - [2023](#2023)
@@ -26,6 +27,14 @@ format:
   - experiment environments and datasets
   - paper reading url
 ```
+
+### 2017
+
+- [CARLA: An Open Urban Driving Simulator](https://proceedings.mlr.press/v78/dosovitskiy17a.html)
+  - Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, Vladlen Koltun
+  - Proceedings of the 1st Annual Conference on Robot Learning, PMLR 78:1-16, 2017.
+  - [Paper Reading](./Paper/2017/Dosovitskiy_CARLA.md), (Carla 仿真平台)
+  - 介绍了 Carla 仿真平台，从两个方面，（1）Carla 仿真部分；（2）给了一个 benchmark，测试不同决策的结果；
 
 ### 2018
 
