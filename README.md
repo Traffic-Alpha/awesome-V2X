@@ -113,6 +113,12 @@ format:
   - [Paper Reading](./Paper/2018/Lopez_2018_Microscopic_SUMO.md), (SUMO 仿真平台，无需多言)
   - 把 SUMO 主要功能介绍了一遍。通过一个例子，介绍了路网生成，流量生成，仿真过程中的模型等。读一下对 SUMO 有更多的理解，有更多场景生成的方式。
 
+- [Flow: A Modular Learning Framework for Mixed Autonomy Traffic](https://ieeexplore.ieee.org/document/9489303)
+  - Cathy Wu, Abdul Rahman Kreidieh, Kanaad Parvate, Eugene Vinitsky, Alexandre M. Bayen
+  - IEEE TRANSACTIONS ON ROBOTICS, VOL. 38, NO. 2, APRIL 2022
+  - [Paper Reading](./Paper/2022/Wu_2022_Flow.md), (Flow 混合交通流仿真框架)
+  - 混合交通流下的 MDP 数学建模。希望解决混合车辆下对 AVs 的控制，于是提出了框架和任务，并给出基础的实验结果。
+
 - [LimSim: A Long-term Interactive Multi-scenario Traffic Simulator](https://ieeexplore.ieee.org/document/10422219)
   - Licheng Wen, Daocheng Fu, Song Mao, Pinlong Cai, Min Dou, Yikang Li, Yu Qiao
   - 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), 2023
