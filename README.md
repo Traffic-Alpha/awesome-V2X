@@ -120,9 +120,9 @@ format:
 
 - [Flow: A Modular Learning Framework for Mixed Autonomy Traffic](https://ieeexplore.ieee.org/document/9489303)
   - Cathy Wu, Abdul Rahman Kreidieh, Kanaad Parvate, Eugene Vinitsky, Alexandre M. Bayen
-  - IEEE TRANSACTIONS ON ROBOTICS, VOL. 38, NO. 2, APRIL 2022
+  - IEEE Transactions on Robotics, vol. 38, no. 2, April 2022
   - [Paper Reading](./Paper/2022/Wu_2022_Flow.md), (Flow 混合交通流仿真框架)
-  - 混合交通流下的 MDP 数学建模。希望解决混合车辆下对 AVs 的控制，于是提出了框架和任务，并给出基础的实验结果。
+  - 混合交通流下的 MDP 数学建模。希望解决混合车辆下对 AVs 的控制，于是提出了框架和任务，并给出基础的实验结果（文章的写作可以参考）。
 
 - [LimSim: A Long-term Interactive Multi-scenario Traffic Simulator](https://ieeexplore.ieee.org/document/10422219)
   - Licheng Wen, Daocheng Fu, Song Mao, Pinlong Cai, Min Dou, Yikang Li, Yu Qiao
@@ -134,7 +134,7 @@ format:
   - Quanyi Li, Zhenghao Peng, Lan Feng, Qihang Zhang, Zhenghai Xue, Bolei Zhou
   - IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 3, pp. 3461-3475, 1 March 2023
   - [Paper Reading](./Paper/2023/Li_2023_MetaDrive.md), (仿真平台，自动驾驶泛化性的研究)
-  - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）
+  - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）。
 
 
 ## License
