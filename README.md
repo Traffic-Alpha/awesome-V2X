@@ -7,11 +7,11 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
 - [Awesome V2X](#awesome-v2x)
   - [Table of Contents](#table-of-contents)
   - [Paper](#paper)
-    - [2017](#2017)
-    - [2018](#2018)
     - [2021](#2021)
     - [2023](#2023)
     - [2024](#2024)
+    - [Traffic Signal Control](#traffic-signal-control)
+    - [Driver Simulator](#driver-simulator)
   - [License](#license)
 
 
@@ -27,22 +27,6 @@ format:
   - experiment environments and datasets
   - paper reading url
 ```
-
-### 2017
-
-- [CARLA: An Open Urban Driving Simulator](https://proceedings.mlr.press/v78/dosovitskiy17a.html)
-  - Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, Vladlen Koltun
-  - Proceedings of the 1st Annual Conference on Robot Learning, PMLR 78:1-16, 2017.
-  - [Paper Reading](./Paper/2017/Dosovitskiy_CARLA.md), (Carla 仿真平台)
-  - 介绍了 Carla 仿真平台，从两个方面，（1）Carla 仿真部分；（2）自动驾驶实验，测试不同任务下，不同决策方法的结果；
-
-### 2018
-
-- [Microscopic Traffic Simulation using SUMO](https://ieeexplore.ieee.org/document/8569938)
-  - Pablo Alvarez Lopez, Michael Behrisch, Laura Bieker-Walz, Jakob Erdmann, Yun-Pang Flotterod, Robert Hilbrich, Leonhard Lucken, Johannes Rummel, Peter Wagner and Evamarie Wießner
-  - 2018 21st International Conference on Intelligent Transportation Systems (ITSC)
-  - [Paper Reading](./Paper/2018/Lopez_2018_Microscopic_SUMO.md), (SUMO 仿真平台，无需多言)
-  - 把 SUMO 主要功能介绍了一遍。通过一个例子，介绍了路网生成，流量生成，仿真过程中的模型等。读一下对 SUMO 有更多的理解，有更多场景生成的方式。
 
 ### 2021
 
@@ -71,11 +55,6 @@ format:
   - Tushar Choudhary, Vikrant Dewangan, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna
   - [Paper Reading](./Paper/2023/Choudhary_2023_Talk2BEV.md), (自动驾驶, 场景理解, 大语言模型)
 
-- [Network Clustering-based Multi-agent Reinforcement Learning for Large-scale Traffc Signal Control](https://ieeexplore.ieee.org/abstract/document/10364020)
-  - Zhicheng Tao, Chao Li, Qinmin Yang
-  - 2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)
-  - [Paper Reading](./Paper/2023/Tao_2023_Network_Clustering_TSC.md), (信号灯控制, 路口相似度聚类)
-
 - [Open-TI: Open Traffic Intelligence with Augmented Language Model](https://arxiv.org/abs/2401.00211)
   - Longchao Da, Kuanru Liou, Tiejin Chen, Xuesong Zhou, Xiangyong Luo, Yezhou Yang, Hua Wei
   - [Paper Reading](./Paper/2023/Da_2023_Open-TI.md), (智慧交通系统, 人机交互, 大语言模型)
@@ -96,9 +75,47 @@ format:
   - [Paper Reading](./Paper/2023/Guo_2023_CoTV.md), (信号灯控制，CAV 速度控制，多智能体强化学习)
   - 利用强化学习同时控制 CAV（速度） 和 Traffic Light，为了解决扩展性，这里只控制距离 Traffic Light 最接近的 CAV。
 
+### 2024
+
+- [World Models for Autonomous Driving: An Initial Survey](https://arxiv.org/abs/2403.02622)
+  - Yanchen Guan, Haicheng Liao, Zhenning Li, Guohui Zhang, Chengzhong Xu
+  - [Paper Reading](./Paper/2024/Guan_2024_World_Models.md), (World Model, RSSM, PETA, AV)
+  - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 JEPA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
+
+
+
+### Traffic Signal Control
+
+- [Network Clustering-based Multi-agent Reinforcement Learning for Large-scale Traffc Signal Control](https://ieeexplore.ieee.org/abstract/document/10364020)
+  - Zhicheng Tao, Chao Li, Qinmin Yang
+  - 2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC), 2023
+  - [Paper Reading](./Paper/2023/Tao_2023_Network_Clustering_TSC.md), (信号灯控制, 路口相似度聚类)
+  - 多路口的信号灯控制，将路网进行分割，每个小区域在使用 MARL 来进行训练，提出了路网切分的方法。
+
+
+- [UniTSA: A Universal Reinforcement Learning Framework for V2X Traffic Signal Control](https://ieeexplore.ieee.org/abstract/document/10535743)
+  - Maonan Wang, Xi Xiong, Yuheng Kan, Chengcheng Xu, Man-On Pun
+  - IEEE Transactions on Vehicular Technology, 2024
+  - [Paper Reading](./Paper/2024/Wang_2024_UniTSA.md)（[相关代码，Github-UniTSA](https://github.com/wmn7/Universal-Light)）
+  - 利用数据增强的方式，使得 agent 可以见到训练集中不包含的路口情况，使得 agent 可以在没有见过的路口上获得更好的结果。
+
+### Driver Simulator
+
+- [CARLA: An Open Urban Driving Simulator](https://proceedings.mlr.press/v78/dosovitskiy17a.html)
+  - Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, Vladlen Koltun
+  - Proceedings of the 1st Annual Conference on Robot Learning, PMLR 78:1-16, 2017.
+  - [Paper Reading](./Paper/2017/Dosovitskiy_CARLA.md), (Carla 仿真平台)
+  - 介绍了 Carla 仿真平台，从两个方面，（1）Carla 仿真部分；（2）自动驾驶实验，测试不同任务下，不同决策方法的结果；
+
+- [Microscopic Traffic Simulation using SUMO](https://ieeexplore.ieee.org/document/8569938)
+  - Pablo Alvarez Lopez, Michael Behrisch, Laura Bieker-Walz, Jakob Erdmann, Yun-Pang Flotterod, Robert Hilbrich, Leonhard Lucken, Johannes Rummel, Peter Wagner and Evamarie Wießner
+  - 2018 21st International Conference on Intelligent Transportation Systems (ITSC), 2018
+  - [Paper Reading](./Paper/2018/Lopez_2018_Microscopic_SUMO.md), (SUMO 仿真平台，无需多言)
+  - 把 SUMO 主要功能介绍了一遍。通过一个例子，介绍了路网生成，流量生成，仿真过程中的模型等。读一下对 SUMO 有更多的理解，有更多场景生成的方式。
+
 - [LimSim: A Long-term Interactive Multi-scenario Traffic Simulator](https://ieeexplore.ieee.org/document/10422219)
   - Licheng Wen, Daocheng Fu, Song Mao, Pinlong Cai, Min Dou, Yikang Li, Yu Qiao
-  - 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)
+  - 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), 2023
   - [Paper Reading](./Paper/2023/Wen_2023_LimSim.md), (仿真平台，交通场景介绍)
   - 介绍了一款自动驾驶仿真器，包含多样性的场景和车辆之间的交互。**文章里面有对交通仿真器的总结，networkFiles 文件夹里面包含 SUMO 路网，从仿真器四个特色来介绍。**
 
@@ -108,17 +125,6 @@ format:
   - [Paper Reading](./Paper/2023/Li_2023_MetaDrive.md), (仿真平台，自动驾驶泛化性的研究)
   - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）
 
-### 2024
-
-- [World Models for Autonomous Driving: An Initial Survey](https://arxiv.org/abs/2403.02622)
-  - Yanchen Guan, Haicheng Liao, Zhenning Li, Guohui Zhang, Chengzhong Xu
-  - [Paper Reading](./Paper/2024/Guan_2024_World_Models.md), (World Model, RSSM, PETA, AV)
-  - World Model 在 Autonomous Driving 上的综述，主要介绍了两种 World Model 的结构，RSSM 和 JEPA，以及 World Model 在 AV 中的一些应用，（1）场景生成，（2）决策控制；
-
-- [UniTSA: A Universal Reinforcement Learning Framework for V2X Traffic Signal Control](https://ieeexplore.ieee.org/abstract/document/10535743)
-  - Maonan Wang, Xi Xiong, Yuheng Kan, Chengcheng Xu, Man-On Pun
-  - [Paper Reading](./Paper/2024/Wang_2024_UniTSA.md)（[相关代码，Github-UniTSA](https://github.com/wmn7/Universal-Light)）
-  - 利用数据增强的方式，使得 agent 可以见到训练集中不包含的路口情况，使得 agent 可以在没有见过的路口上获得更好的结果。
 
 ## License
 
