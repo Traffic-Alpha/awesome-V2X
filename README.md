@@ -3,7 +3,6 @@
 A curated list of Vehicle to X (V2X) resources (continually updated). You can reference [Journal Information](./Paper/Journal_Information/) for more information.
 
 ## Table of Contents
-
 - [Awesome V2X](#awesome-v2x)
   - [Table of Contents](#table-of-contents)
   - [Paper](#paper)
@@ -13,8 +12,8 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
     - [Traffic Signal Control (信号灯控制)](#traffic-signal-control-信号灯控制)
     - [CAVs and TSC (自动驾驶\&信号灯控制)](#cavs-and-tsc-自动驾驶信号灯控制)
     - [Driver Simulator (仿真框架)](#driver-simulator-仿真框架)
+  - [2025](#2025)
   - [License](#license)
-
 
 ## Paper
 
@@ -136,6 +135,7 @@ format:
   - [Paper Reading](./Paper/2023/Li_2023_MetaDrive.md), (仿真平台，自动驾驶泛化性的研究)
   - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）。
 
+## 2025
 
 ## License
 
