@@ -137,6 +137,10 @@ format:
 
 ## 2025
 
+- [Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems](https://arxiv.org/abs/2508.02344)
+  - Xingchen Zou, Yuhao Yang, Zheng Chen, Xixuan Hao, Yiqi Chen, Chao Huang, Yuxuan Liang
+  - [Paper Reading]
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.
