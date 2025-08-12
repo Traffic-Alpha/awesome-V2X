@@ -149,6 +149,7 @@ format:
   - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)
   - [Paper Reading](./Paper/2025/Lai_2025_LLMLight/main.md)
   - **Keywords**: Traffic signal control, large language model
+  - LLMLight 利用大型语言模型作为交通信号控制代理，通过常识增强提示和专门训练的 LightGPT 实现高效、泛化且可解释的交通管理。包含根据专家数据微调，和根据 Q function 对动作打分从而计算偏好。
 
 - [Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems](https://arxiv.org/abs/2508.02344)
   - Xingchen Zou, Yuhao Yang, Zheng Chen, Xixuan Hao, Yiqi Chen, Chao Huang, Yuxuan Liang
