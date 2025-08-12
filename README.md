@@ -12,7 +12,7 @@ A curated list of Vehicle to X (V2X) resources (continually updated). You can re
     - [Traffic Signal Control (信号灯控制)](#traffic-signal-control-信号灯控制)
     - [CAVs and TSC (自动驾驶\&信号灯控制)](#cavs-and-tsc-自动驾驶信号灯控制)
     - [Driver Simulator (仿真框架)](#driver-simulator-仿真框架)
-  - [2025](#2025)
+    - [2025](#2025)
   - [License](#license)
 
 ## Paper
@@ -142,12 +142,18 @@ format:
   - [Paper Reading](./Paper/2023/Li_2023_MetaDrive.md), (仿真平台，自动驾驶泛化性的研究)
   - MetaDrive 目标是具有泛化性的自动驾驶，提出了框架和一些自动驾驶任务（文章的写作可以参考）。
 
-## 2025
+### 2025
+
+- [LLMLight: Large Language Models as Traffic Signal Control Agents](https://dl.acm.org/doi/10.1145/3690624.3709379)
+  - Lai, Siqi and Xu, Zhao and Zhang, Weijia and Liu, Hao and Xiong, Hui
+  - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)
+  - [Paper Reading](./Paper/2025/Lai_2025_LLMLight/main.md)
+  - **Keywords**: Traffic signal control, large language model
 
 - [Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems](https://arxiv.org/abs/2508.02344)
   - Xingchen Zou, Yuhao Yang, Zheng Chen, Xixuan Hao, Yiqi Chen, Chao Huang, Yuxuan Liang
   - [Paper Reading](./Paper/2025/Zou_2025_Traffic-R1/main.md) | [Arxiv](https://arxiv.org/abs/2508.02344)
-  - **Keywords**: Traffic signal control, large language model, reinforcement learning
+  - **Keywords**: Traffic signal control, large language model, GRPO
   - Traffic-R1 是一个基于轻量级大语言模型的交通信号控制系统，通过两阶段RL微调和异步通信网络实现类似人类的推理与多路口协调。
 
 ## License
