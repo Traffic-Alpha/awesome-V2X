@@ -43,17 +43,24 @@ format:
   - Jiageng Mao, Yuxi Qian, Hang Zhao, Yue Wang
   - [Paper Reading](./Paper/2023/Mao_2023_GPT-Driver.md), (轨迹规划, 大语言模型)
 
-- [Drive as You Speak: Enabling Human-Like Interaction with Large Language Models in Autonomous Vehicles](https://arxiv.org/abs/2309.10228)
+- [Drive as You Speak: Enabling Human-Like Interaction with Large Language Models in Autonomous Vehicles](https://ieeexplore.ieee.org/document/10495655)
   - Can Cui, Yunsheng Ma, Xu Cao, Wenqian Ye, Ziran Wang
-  - [Paper Reading](./Paper/2023/Cui_2023_Drive_As_You_Speak.md), (自动驾驶, 大语言模型)
+  - IEEE Winter Applications and Computer Vision Workshops (WACVW)
+  - **Keywords**: Autonomous Vehicles, Large Language Models
+  - [Paper Reading](./Paper/2023/Cui_2023_Drive_As_You_Speak.md) | [Arxiv](https://arxiv.org/abs/2309.10228)
 
-- [Receive, Reason, and React: Drive as You Say with Large Language Models in Autonomous Vehicles](https://arxiv.org/abs/2310.08034)
+- [Receive, Reason, and React: Drive as You Say with Large Language Models in Autonomous Vehicles](https://ieeexplore.ieee.org/document/10491134)
   - Can Cui, Yunsheng Ma, Xu Cao, Wenqian Ye, Ziran Wang
-  - [Paper Reading](./Paper/2023/Cui_2023_Receive,_Reason_React.md), (自动驾驶, 大语言模型)，这一篇上 `Drive as You Speak` 的详细版本
+  - IEEE Intelligent Transportation Systems Magazine
+  - **Keywords**: Autonomous Vehicles, Large Language Models
+  - [Paper Reading](./Paper/2023/Cui_2023_Receive,_Reason_React.md) | [Arxiv](https://arxiv.org/abs/2310.08034)
+  - **Note**: 这一篇是上面 `Drive as You Speak` 的详细版本
 
-- [Talk2BEV: Language-enhanced Bird’s-eye View Maps for Autonomous Driving](https://arxiv.org/abs/2310.02251)
+- [Talk2BEV: Language-enhanced Bird’s-eye View Maps for Autonomous Driving](https://ieeexplore.ieee.org/document/10611485)
   - Tushar Choudhary, Vikrant Dewangan, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna
-  - [Paper Reading](./Paper/2023/Choudhary_2023_Talk2BEV.md), (自动驾驶, 场景理解, 大语言模型)
+  - 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  - **Keywords**: Autonomous Vehicles, Bird’s Eye, Scene Understanding, Large Language Model
+  - [Paper Reading](./Paper/2023/Choudhary_2023_Talk2BEV.md) | [Arxiv](https://arxiv.org/abs/2310.02251) | [Project Page](https://llmbev.github.io/talk2bev/)
 
 - [Open-TI: Open Traffic Intelligence with Augmented Language Model](https://arxiv.org/abs/2401.00211)
   - Longchao Da, Kuanru Liou, Tiejin Chen, Xuesong Zhou, Xiangyong Luo, Yezhou Yang, Hua Wei
@@ -139,7 +146,9 @@ format:
 
 - [Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems](https://arxiv.org/abs/2508.02344)
   - Xingchen Zou, Yuhao Yang, Zheng Chen, Xixuan Hao, Yiqi Chen, Chao Huang, Yuxuan Liang
-  - [Paper Reading]
+  - [Paper Reading](./Paper/2025/Zou_2025_Traffic-R1/main.md) | [Arxiv](https://arxiv.org/abs/2508.02344)
+  - **Keywords**: Traffic signal control, large language model, reinforcement learning
+  - Traffic-R1 是一个基于轻量级大语言模型的交通信号控制系统，通过两阶段RL微调和异步通信网络实现类似人类的推理与多路口协调。
 
 ## License
 
