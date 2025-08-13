@@ -127,7 +127,7 @@ $$
 - 损失函数为负对数似然（NLL）：
 
 $$
-L_{IFT} = -\sum_{w} \log P_{\pi_\theta} (y_{w} \mid X, Y_{<w})
+L_{IFT} = -\sum_{w} \log P_{\pi_\theta} (y_{w} | X, Y_{<w})
 $$
 
 - 采用 LoRA 进行参数高效训练，减少 GPU 内存消耗，同时保留原模型性能。通过此阶段，LightGPT 学习 GPT-4 的高品质控制策略和 rationale。
