@@ -120,7 +120,6 @@ $$
 \{(X_t, Y_t, a_t) \mid a_t = \arg\max_{a \in A} Q(o_t, a)\}_{t=0}^T
 $$
 
-
 **模仿微调（Imitation Fine-tuning）：**
 
 使用过滤后的 GPT-4 轨迹进行**模仿学习**：
