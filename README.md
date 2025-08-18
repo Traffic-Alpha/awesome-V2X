@@ -157,6 +157,12 @@ format:
   - **Keywords**: Traffic signal control, large language model, GRPO
   - Traffic-R1 是一个基于轻量级大语言模型的交通信号控制系统，通过两阶段RL微调和异步通信网络实现类似人类的推理与多路口协调。
 
+- [CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control](https://arxiv.org/abs/2503.11739)
+  - Zirui Yuan, Siqi Lai, Hao Liu
+  - [Paper Reading](./Paper/2025/Yuan_2025_CoLLMLight/main.md) | [Arxiv](https://arxiv.org/abs/2503.11739)
+  - **Keywords**: Traffic Signal control, Large Language Model, Multi-Agent Cooperation, Intelligent Transportation
+  - CoLLMLight 是一个合作型大语言模型代理框架，用于网络级交通信号控制，通过构建时空图捕捉交通动态、采用复杂度感知推理机制实现高效决策，并利用模拟驱动细调提升性能，在合成和真实数据集上优于现有方法。
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.

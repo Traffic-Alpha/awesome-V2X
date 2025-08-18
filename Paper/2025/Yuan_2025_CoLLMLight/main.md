@@ -96,8 +96,10 @@ X = \text{Prompt}(O_t, G, T_t, D)
 $$
 
 LLM输出：
+
 $$
-Y_{\text{ana}}, \{ \hat{O}^a_{t+1} \mid a \in A \}, \hat{a} = f_{\text{LLM}}(X)$$
+Y_{\text{ana}}, \{ \hat{O}^a_{t+1} \mid a \in A \}, \hat{a} = f_{\text{LLM}}(X)
+$$
 
 其中：
 - $Y_{\text{ana}}$: 当前交通条件分析。
@@ -153,20 +155,20 @@ $$
 训练：监督细调（SFT），最小化负对数似然损失：
 
 $$
-\text{loss} = -\sum_{w=1}^{|Y|} \log P_\pi(y_w \mid X, Y_{<w})
+\text{loss} = -\sum_{w=1}^{|Y|} \log P_\pi(y_w \mid X, Y_{\le w})
 $$
 
 多路口协作：合成数据覆盖多路口交互，确保 LLM 学习时空依赖的协作模式。
 
 **(2) 环境反馈精炼（Refinement with Environment Feedback）**
 
-模拟 LLM 决策，评估环境反馈 $Q$（队列长度的倒数），选择最高反馈的推理链作为伪链，继续细调。
+这一部分模拟 LLM 决策，评估环境反馈 $Q$（队列长度的倒数，$Q = 1/\text{Queue}$），选择最高反馈的推理链作为伪链，继续细调。
 
 $$
 \{ Y \mid \hat{a} = \arg\max_a Q(O_t, a) \}_{t=0}^T
 $$
 
-- 时空感知实现：反馈基于5步模拟，强化对时空传播的理解。
+- 时空感知实现：反馈基于 $5$ 步模拟，强化对时空传播的理解。
 - 多路口协作：迭代优化确保决策最大化网络效率，减少时空误解（如幻觉）。
 
 ## Result
