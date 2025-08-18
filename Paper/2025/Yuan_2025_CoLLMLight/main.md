@@ -150,7 +150,7 @@ $$
 
 1. 使用 GPT-4o 生成 $n_c$ 和 $Y_{\text{ana}}$: $n_c, Y_{\text{ana}} = f_{\text{GPT-4o}}(O_t)$。
 2. 模拟未来状态： $\{ O^a_{t+1} \} = \{ f_{\text{sim}}(O_t, a) \mid a \in A \}$。
-3. 选择 $a^*$ : $a^* = \arg\min_a f_{\text{queue}}(O_t, a)$ （最小化5步邻近队列总长）。
+3. 选择最优动作： $a^* = \arg\min_a f_{\text{queue}}(O_t, a)$ （最小化5步邻近队列总长）。
 
 训练：监督细调（SFT），最小化负对数似然损失：
 
@@ -162,7 +162,7 @@ $$
 
 **(2) 环境反馈精炼（Refinement with Environment Feedback）**
 
-这一部分模拟 LLM 决策，评估环境反馈 $Q$（队列长度的倒数，$Q = 1/\text{Queue}$ ），选择最高反馈的推理链作为伪链，继续细调。
+这一部分模拟 LLM 决策，评估环境反馈 $Q$（队列长度的倒数， $Q = 1/\text{Queue}$），选择最高反馈的推理链作为伪链，继续细调。
 
 $$
 \{ Y \mid \hat{a} = \arg\max_a Q(O_t, a) \}_{t=0}^T
