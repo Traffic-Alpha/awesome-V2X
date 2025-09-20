@@ -53,3 +53,4 @@ if __name__ == '__main__':
     sorted_csv_data = sort_data(csv_data)
     markdown_content = data_to_markdown(sorted_csv_data)
     save_markdown(markdown_content, markdown_file_name)
+    print(f"{csv_file_path} --> {markdown_file_name}")
