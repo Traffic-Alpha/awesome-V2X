@@ -1,0 +1,7 @@
+[project]
+name = "awesome-v2x"
+version = "1.0"
+description = "论文阅读记录"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
