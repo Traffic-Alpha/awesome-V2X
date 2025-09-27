@@ -64,7 +64,7 @@ V2XFormer 通过三个层次的处理——车辆级（Vehicle Level）、车道
 #### 车辆级（Vehicle Level）：时序编码和特征投影
 
 **输入：**
-- 车辆级观测 $o_{cv} \in \mathbb{R}^{|L_{in}| \times d_l}$，其中 $|L_{in}|$ 是入向车道数，$d_l = 210$ 是固定维度（通过填充机制确保每个车道的 CV 观测维度一致。我理解这里将这个车道上所有车辆信息全部拼接在一起了）。
+- 车辆级观测 $o_{cv} \in \mathbb{R}^{|L_{in}| \times d_l}$，其中 $|L_{in}|$ 是入向车道数，其中 $d_l = 210$ 是固定维度（通过填充机制确保每个车道的 CV 观测维度一致。我理解这里将这个车道上所有车辆信息全部拼接在一起了）。
 - 每个车道的观测 $o_{cv, l_{in}}$ 来自该车道上的 CVs，包括每个车辆 $v$ 的特征 $o_v = (p_v, s_v, a_v, d_v)$（位置、速度、加速度、下一个路口）。
 
 
@@ -85,7 +85,7 @@ $$
 GRU 是一个循环神经网络变体，能有效处理序列数据，避免梯度消失问题。它利用历史轨迹建模车辆运动动态，例如加速/减速模式。
 
 
-**输出：** 时序增强特征 $h'_{cv} \in \mathbb{R}^{|L_{in}| \times d_h}$，每个车道一行，表示该车道的 CV 动态。这一模块类似于时间序列预处理。如果没有 GRU，模型只能看到静态快照，无法捕捉如“车辆即将减速转弯”的动态意图。这为下游层提供更丰富的输入，提升预测准确性。
+**输出：** 时序增强特征 $h'_{cv} \in \mathbb{R}^{|L_{in}| \times d_h}$ ，每个车道一行，表示该车道的 CV 动态。这一模块类似于时间序列预处理。如果没有 GRU，模型只能看到静态快照，无法捕捉如“车辆即将减速转弯”的动态意图。这为下游层提供更丰富的输入，提升预测准确性。
 
 #### 车道级（Lane Level）：交互建模与特征融合
 
@@ -99,8 +99,8 @@ GRU 是一个循环神经网络变体，能有效处理序列数据，避免梯�
 
 双编码器 Transformer：输入 $h'_{cv}$ 到两个并行的自注意力（self-attention）编码器，每个编码器使用不同的掩码机制建模车道关系。
 
-- 协作编码器（Cooperative Encoder）：使用协作掩码 $M_c$，冲突车道的注意力值设为 $-\infty$（防止信息聚合），非冲突车道保留原注意力。输出协作特征 $E_c \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l1}(h'_{cv}, M_c)$。
-- 竞争编码器（Competitive Encoder）：使用竞争掩码 $M_r$，非冲突车道设为 $-\infty$，只关注冲突车道。输出竞争特征 $E_r \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l2}(h'_{cv}, M_r)$。
+- 协作编码器（Cooperative Encoder）：使用协作掩码 $M_c$，冲突车道的注意力值设为 $-\infty$（防止信息聚合），非冲突车道保留原注意力。输出协作特征 $E_c \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l1}(h'_{cv}, M_c)$ 。
+- 竞争编码器（Competitive Encoder）：使用竞争掩码 $M_r$，非冲突车道设为 $-\infty$，只关注冲突车道。输出竞争特征 $E_r \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l2}(h'_{cv}, M_r)$ 。
 
 自注意力公式：
 
@@ -108,11 +108,11 @@ $$
 \text{Attention}(Q, K, V, M) = \text{softmax}\left( \frac{Q K^T}{\sqrt{d}} + M \right) V
 $$
 
-其中$ Q = W_Q h'_{cv}$，$K = W_K h'_{cv}$，$V = W_V h'_{cv}$（$W_*$ 是可学习权重）。
+其中 $Q = W_Q h'_{cv}$， $K = W_K h'_{cv}$， $V = W_V h'_{cv}$（ $W_*$ 是可学习权重）。
 
 接着融合上面两部分的信息，使用自适应门控融合（Adaptive Gated Fusion）：整合 $E_c$ 和 $E_r$。
 
-计算门控值使用 sigmoid 激活，确保 $ g \in [0,1] $：
+计算门控值使用 sigmoid 激活，确保 $g \in [0,1]$ ：
 
 $$
 g = \sigma(W_g E_c + b_g)
