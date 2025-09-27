@@ -128,9 +128,7 @@ $$
 - $K = W_K h^{'}_{cv}$
 - $V = W_V h^{'}_{cv}$
 
-接着融合上面两部分的信息，使用自适应门控融合（Adaptive Gated Fusion）：整合 $E_c$ 和 $E_r$。
-
-计算门控值使用 sigmoid 激活，确保 $g \in [0,1]$ ：
+接着融合上面两部分的信息，使用自适应门控融合（Adaptive Gated Fusion）：整合 $E_c$ 和 $E_r$。计算门控值使用 sigmoid 激活，确保 $g \in [0,1]$ ：
 
 $$
 g = \sigma(W_g E_c + b_g)
