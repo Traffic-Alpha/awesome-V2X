@@ -99,8 +99,17 @@ GRU 是一个循环神经网络变体，能有效处理序列数据，避免梯�
 
 双编码器 Transformer：输入 $h'_{cv}$ 到两个并行的自注意力（self-attention）编码器，每个编码器使用不同的掩码机制建模车道关系。
 
-- 协作编码器（Cooperative Encoder）：使用协作掩码 $M_c$，冲突车道的注意力值设为 $-\infty$（防止信息聚合），非冲突车道保留原注意力。输出协作特征 $E_c \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l1}(h'_{cv}, M_c)$ 。
-- 竞争编码器（Competitive Encoder）：使用竞争掩码 $M_r$，非冲突车道设为 $-\infty$，只关注冲突车道。输出竞争特征 $E_r \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l2}(h'_{cv}, M_r)$ 。
+- 协作编码器（Cooperative Encoder）：使用协作掩码 $M_c$，冲突车道的注意力值设为 $-\infty$（防止信息聚合），非冲突车道保留原注意力。输出协作特征：
+
+$$
+E_c \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l1}(h'_{cv}, M_c)
+$$
+
+- 竞争编码器（Competitive Encoder）：使用竞争掩码 $M_r$，非冲突车道设为 $-\infty$，只关注冲突车道。输出竞争特征：
+
+$$
+E_r \in \mathbb{R}^{|L_{in}| \times d_h} = \text{Encoder}_{l2}(h'_{cv}, M_r)
+$$
 
 自注意力公式：
 
@@ -108,7 +117,7 @@ $$
 \text{Attention}(Q, K, V, M) = \text{softmax}\left( \frac{Q K^T}{\sqrt{d}} + M \right) V
 $$
 
-其中 $Q = W_Q h'_{cv}$， $K = W_K h'_{cv}$， $V = W_V h'_{cv}$（ $W_*$ 是可学习权重）。
+其中计算方式分别是 $Q = W_Q h^{'}_{cv}$， $K = W_K h^{'}_{cv}$， $V = W_V h^{'}_{cv}$，其中 $W_*$ 是可学习权重。
 
 接着融合上面两部分的信息，使用自适应门控融合（Adaptive Gated Fusion）：整合 $E_c$ 和 $E_r$。
 
