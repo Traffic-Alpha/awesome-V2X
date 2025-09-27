@@ -163,6 +163,12 @@ format:
   - **Keywords**: Traffic Signal control, Large Language Model, Multi-Agent Cooperation, Intelligent Transportation
   - CoLLMLight 是一个合作型大语言模型代理框架，用于网络级交通信号控制，通过构建时空图捕捉交通动态、采用复杂度感知推理机制实现高效决策，并利用模拟驱动细调提升性能，在合成和真实数据集上优于现有方法。
 
+- [V2XFormer: A Multi-Stage Transformer for Multi-Agent Reinforcement Learning in V2X-Enabled Traffic Signal Control](https://www.marmotlab.org/publications/81-ITSC2025-V2XFormer.pdf)
+  - Yifeng Zhang*, Ping Gong*, Weiyi He, Yilin Liu, Mingfeng Fan†, Guillaume Sartoretti
+  - [Paper Reading](./Paper/2025/Zhang_2025_V2XFormer/main.md) 
+  - **Keywords**: Traffic Signal control, Multi-Agent Reinforcement Learning
+  - V2XFormer 主要研究了利用 CVs 提供的实时细粒度交通信息，结合一种多阶段 Transformer 框架，融合车辆，车道，路口信息，用于网络级交通信号控制。
+
 ## License
 
 Awesome V2X is released under the Apache 2.0 license.
