@@ -77,7 +77,6 @@ format:
   - 对多视角的视频进行预测（结合当前 state 和 action，对场景预测），对不同动作的未来场景进行打分，最后选择分数高的场景对应的动作进行执行。
 
 
-
 ### 2024
 
 - [World Models for Autonomous Driving: An Initial Survey](https://arxiv.org/abs/2403.02622)
@@ -147,7 +146,7 @@ format:
 - [LLMLight: Large Language Models as Traffic Signal Control Agents](https://dl.acm.org/doi/10.1145/3690624.3709379)
   - Lai, Siqi and Xu, Zhao and Zhang, Weijia and Liu, Hao and Xiong, Hui
   - Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)
-  - [Paper Reading](./Paper/2025/Lai_2025_LLMLight/main.md)
+  - [Paper Reading](./Paper/2025/Lai_2025_LLMLight/main.md) | [Arxiv](https://arxiv.org/abs/2312.16044)
   - **Keywords**: Traffic signal control, large language model
   - LLMLight 利用大型语言模型作为交通信号控制代理，通过常识增强提示和专门训练的 LightGPT 实现高效、泛化且可解释的交通管理。包含根据专家数据微调，和根据 Q function 对动作打分从而计算偏好。
 
@@ -168,6 +167,14 @@ format:
   - [Paper Reading](./Paper/2025/Zhang_2025_V2XFormer/main.md) 
   - **Keywords**: Traffic Signal control, Multi-Agent Reinforcement Learning
   - V2XFormer 主要研究了利用 CVs 提供的实时细粒度交通信息，结合一种多阶段 Transformer 框架，融合车辆，车道，路口信息，用于网络级交通信号控制。
+
+- [VLMLight: Safety-Critical Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning Architecture](https://neurips.cc/virtual/2025/loc/san-diego/poster/120348)
+  - Maonan Wang, Yirong Chen, Aoyu Pang, Yuxin Cai, Chung Shue Chen, Yuheng Kan, Man-On Pun
+  - The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
+  - [Paper Reading](./Paper/2025/Wang_2025_VLMLight/main.md) | [Arxiv](https://arxiv.org/abs/2505.19486)
+  - **Keywords**: Traffic Signal control, Vision-Language Models
+  - VLMLight 框架是首个利用多视角视觉模拟器的交通信号控制系统，它通过元控制器动态调度「快速RL策略」与「深思熟虑的LLM推理」双分支架构，在维持常规交通效率的同时将紧急车辆等待时间降低了65%。
+
 
 ## License
 
